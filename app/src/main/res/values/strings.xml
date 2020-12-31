@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DoAn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bienbao">bienbao</string>
+    <string name="bienbaocam">Biển Báo Cấm</string>
+    <string name="bienbaonguyhiem">Biển Báo Nguy Hiểm</string>
+    <string name="bienbaohieulenh">Biển Báo Hiệu Lệnh</string>
+    <string name="luatxemay">Luật Xe Máy</string>
+    <string name="luatdibo">Luật Đi Bộ</string>
+    <string name="title_activity_bienbaoo">bienbaoo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

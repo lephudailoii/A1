@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bienbao">
+
+    <ImageButton
+        android:id="@+id/imgcam"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bbcam" />
+
+    <ImageButton
+        android:id="@+id/imgnguyhiem"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcam"
+        app:srcCompat="@drawable/bbnguyhiem" />
+
+    <ImageButton
+        android:id="@+id/imghieulenh"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgnguyhiem"
+        app:srcCompat="@drawable/bbhieulenh" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="BIỂN BÁO CẤM"
+        android:textColor="#E6FF0505"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgcam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="BIỂN BÁO NGUY HIỂM"
+        android:textColor="#FAF80202"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgnguyhiem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="BIỂN BÁO HIỆU LỆNH"
+        android:textColor="#F3FC0606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imghieulenh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

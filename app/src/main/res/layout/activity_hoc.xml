@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BBB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hoc">
+
+    <ImageButton
+        android:id="@+id/imageButtonkhainiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/khainiemhoc" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhethong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonkhainiem"
+        app:srcCompat="@drawable/hethonghoc" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsahinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonhethong"
+        app:srcCompat="@drawable/sahinhhoc" />
+
+    <ImageButton
+        android:id="@+id/imageButtonall"
+        android:layout_width="128dp"
+        android:layout_height="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonvanhoa"
+        app:srcCompat="@drawable/all" />
+
+    <ImageButton
+        android:id="@+id/imageButtonvanhoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonsahinh"
+        app:srcCompat="@drawable/vanhoahoc" />
+</androidx.constraintlayout.widget.ConstraintLayout>
